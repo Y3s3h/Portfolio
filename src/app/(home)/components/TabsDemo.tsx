@@ -7,27 +7,27 @@ import Link from "next/link";
 export function TabsDemo() {
   const tabs = [
     {
-      title: "Dashboard App",
+      title: "Job-Portal",
       value: "dashboard",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Dashboard With ShadcnUi</p>
+          <p>Job-Portal</p>
           <ImageContainer
-            src="/images/best-projects/dashboard.png"
-            href="https://shadcn-dashboard-red.vercel.app/"
+            src="/images/best-projects/job.png"
+            href="https://job-application-nzvj.onrender.com"
           />
         </div>
       )
     },
     {
-      title: "Todo App",
+      title: "Chat App",
       value: "todo",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Todo App With CRUD Operation</p>
+          <p>Real Time Chat Application</p>
           <ImageContainer
-            src="/images/best-projects/todo.png"
-            href="https://todo-sage-alpha.vercel.app/"
+            src="/images/best-projects/chat.png"
+            href="https://chat-application-7sis.onrender.com"
           />
         </div>
       )
@@ -39,21 +39,21 @@ export function TabsDemo() {
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>Movies App</p>
           <ImageContainer
-            src="/images/best-projects/movies.png"
-            href="https://movies-app-yt-live.vercel.app/"
+            src="/images/best-projects/movie.png"
+            href="https://movie-guider.vercel.app/"
           />
         </div>
       )
     },
     {
-      title: "Weather App",
+      title: "Image-Search App",
       value: "weather",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Weather App</p>
+          <p>Image-Search App</p>
           <ImageContainer
-            src="/images/best-projects/weather.png"
-            href="https://weather-app-nextjs-seven-rho.vercel.app/"
+            src="/images/best-projects/image.png"
+            href="https://image-search-app-bice.vercel.app/"
           />
         </div>
       )
